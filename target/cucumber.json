@@ -1,0 +1,159 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-10T00:27:06.809Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10648523000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.startTest()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Create a new account",
+        "description": "",
+        "id": "registration;create-a-new-account",
+        "after": [
+          {
+            "result": {
+              "duration": 1920000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.endTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24406000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at the walgreens homepage",
+            "match": {
+              "location": "stepDef.register_stepDef.iAmAtTheWalgreensHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 158192000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on Account",
+            "match": {
+              "location": "stepDef.register_stepDef.iClickOnAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3811001000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Register",
+            "match": {
+              "location": "stepDef.register_stepDef.iClickOnRegister()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 250745000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter valid First Name",
+            "match": {
+              "location": "stepDef.register_stepDef.iEnterValidFirstName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93940000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter valid Last Name",
+            "match": {
+              "location": "stepDef.register_stepDef.iEnterValidLastName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114412000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter valid Email Address",
+            "match": {
+              "location": "stepDef.register_stepDef.iEnterValidEmailAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 459581000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter valid Password",
+            "match": {
+              "location": "stepDef.register_stepDef.iEnterValidPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152466000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on I read and agree to the Walgreens terms of use",
+            "match": {
+              "location": "stepDef.register_stepDef.iClickOnIReadAndAgreeToTheWalgreensTermsOfUse()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 190793000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on continue button",
+            "match": {
+              "location": "stepDef.register_stepDef.iClickOnContinueButton()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "Registration",
+    "description": "",
+    "id": "registration",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/register.feature",
+    "tags": []
+  }
+]
